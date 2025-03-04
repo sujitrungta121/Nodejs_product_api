@@ -26,7 +26,7 @@ const login = async (req, res) => {
     if (!email || !password) {
       return res.status(400).json({ message: "All fields are required" });
     }
-    const isUserExist = await User.findOne({ email });
+    const isUserExist = await User.findOne({ email,password });
     if (!isUserExist) {
       return res.status(201).json({ message: "User does not exist" });
     }
