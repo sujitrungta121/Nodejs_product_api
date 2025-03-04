@@ -4,6 +4,10 @@ GITHUB_REPO=https://github.com/sujitrungta121/Nodejs_product_api.git
 POSTMAN_LINK="https://github.com/sujitrungta121/Nodejs_product_api.git"
 
 
+Note: 
+I have no idea regarding Testing Frameworks thatswhy there is no testing code has been written
+
+
 SETUP_DETAILS:
 
 1.CLONE THE PROJECT WITH THE GIVEN URL ABOVE (GITHUB_REPO)
@@ -21,3 +25,6 @@ The controller folder have two files one for the user and prodocts where all the
 the models folder contain the user model and the product model
 and the final auth folder contains the verifyToken and generating Token.
 This design of my folder is readable, structurable which keep other user easy to understand and implement.
+
+
+
